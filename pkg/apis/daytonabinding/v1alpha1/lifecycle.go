@@ -28,7 +28,7 @@ import (
 	duckv1 "knative.dev/pkg/apis/duck/v1"
 	"knative.dev/pkg/tracker"
 
-	"github.com/dgerd/daytona-binding/pkg/daytona"
+	"github.com/karlkfi/daytona-binding/pkg/daytona"
 )
 
 const (

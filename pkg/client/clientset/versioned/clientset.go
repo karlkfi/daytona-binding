@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	bindingv1alpha1 "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1"
+	bindingv1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

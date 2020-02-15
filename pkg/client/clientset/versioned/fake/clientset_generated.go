@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned"
-	bindingv1alpha1 "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1"
-	fakebindingv1alpha1 "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1/fake"
+	clientset "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned"
+	bindingv1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1"
+	fakebindingv1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

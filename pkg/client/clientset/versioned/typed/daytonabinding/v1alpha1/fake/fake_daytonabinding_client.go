@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1alpha1 "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1"
+	v1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned/typed/daytonabinding/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

@@ -21,7 +21,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "github.com/dgerd/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
+	v1alpha1 "github.com/karlkfi/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

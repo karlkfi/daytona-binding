@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/dgerd/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
-	"github.com/dgerd/daytona-binding/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/karlkfi/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
+	"github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

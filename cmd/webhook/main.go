@@ -36,8 +36,8 @@ import (
 	"knative.dev/pkg/webhook/resourcesemantics/defaulting"
 	"knative.dev/pkg/webhook/resourcesemantics/validation"
 
-	"github.com/dgerd/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
-	"github.com/dgerd/daytona-binding/pkg/reconciler/daytona"
+	"github.com/karlkfi/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
+	"github.com/karlkfi/daytona-binding/pkg/reconciler/daytona"
 )
 
 var types = map[schema.GroupVersionKind]resourcesemantics.GenericCRD{

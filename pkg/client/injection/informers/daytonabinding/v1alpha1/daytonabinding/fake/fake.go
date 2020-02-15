@@ -21,8 +21,8 @@ package fake
 import (
 	"context"
 
-	daytonabinding "github.com/dgerd/daytona-binding/pkg/client/injection/informers/daytonabinding/v1alpha1/daytonabinding"
-	fake "github.com/dgerd/daytona-binding/pkg/client/injection/informers/factory/fake"
+	daytonabinding "github.com/karlkfi/daytona-binding/pkg/client/injection/informers/daytonabinding/v1alpha1/daytonabinding"
+	fake "github.com/karlkfi/daytona-binding/pkg/client/injection/informers/factory/fake"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 )

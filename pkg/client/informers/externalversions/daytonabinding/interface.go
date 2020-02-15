@@ -19,8 +19,8 @@ limitations under the License.
 package daytonabinding
 
 import (
-	v1alpha1 "github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/daytonabinding/v1alpha1"
-	internalinterfaces "github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/daytonabinding/v1alpha1"
+	internalinterfaces "github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned"
-	daytonabinding "github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/daytonabinding"
-	internalinterfaces "github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned"
+	daytonabinding "github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/daytonabinding"
+	internalinterfaces "github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

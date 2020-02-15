@@ -1121,7 +1121,7 @@
   ]
   pruneopts = "T"
   revision = "4fde6c3ded76823656a53d62866acf101ca4a9cd"
-  source = "github.com/dgerd/pkg"
+  source = "github.com/karlkfi/pkg"
 
 [[projects]]
   branch = "master"

@@ -19,7 +19,7 @@ package daytona
 import (
 	"context"
 
-	dbinformer "github.com/dgerd/daytona-binding/pkg/client/injection/informers/daytonabinding/v1alpha1/daytonabinding"
+	dbinformer "github.com/karlkfi/daytona-binding/pkg/client/injection/informers/daytonabinding/v1alpha1/daytonabinding"
 	"knative.dev/pkg/client/injection/ducks/duck/v1/podable"
 
 	corev1 "k8s.io/api/core/v1"
@@ -35,7 +35,7 @@ import (
 	"knative.dev/pkg/tracker"
 	"knative.dev/pkg/webhook/podbinding"
 
-	"github.com/dgerd/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
+	"github.com/karlkfi/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
 )
 
 const (

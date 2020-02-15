@@ -21,8 +21,8 @@ package daytonabinding
 import (
 	"context"
 
-	v1alpha1 "github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/daytonabinding/v1alpha1"
-	factory "github.com/dgerd/daytona-binding/pkg/client/injection/informers/factory"
+	v1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/daytonabinding/v1alpha1"
+	factory "github.com/karlkfi/daytona-binding/pkg/client/injection/informers/factory"
 	controller "knative.dev/pkg/controller"
 	injection "knative.dev/pkg/injection"
 	logging "knative.dev/pkg/logging"
@@ -46,7 +46,7 @@ func Get(ctx context.Context) v1alpha1.DaytonaBindingInformer {
 	untyped := ctx.Value(Key{})
 	if untyped == nil {
 		logging.FromContext(ctx).Panic(
-			"Unable to fetch github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/daytonabinding/v1alpha1.DaytonaBindingInformer from context.")
+			"Unable to fetch github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/daytonabinding/v1alpha1.DaytonaBindingInformer from context.")
 	}
 	return untyped.(v1alpha1.DaytonaBindingInformer)
 }

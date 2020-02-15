@@ -21,10 +21,10 @@ package v1alpha1
 import (
 	time "time"
 
-	daytonabindingv1alpha1 "github.com/dgerd/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
-	versioned "github.com/dgerd/daytona-binding/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/dgerd/daytona-binding/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/dgerd/daytona-binding/pkg/client/listers/daytonabinding/v1alpha1"
+	daytonabindingv1alpha1 "github.com/karlkfi/daytona-binding/pkg/apis/daytonabinding/v1alpha1"
+	versioned "github.com/karlkfi/daytona-binding/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/karlkfi/daytona-binding/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/karlkfi/daytona-binding/pkg/client/listers/daytonabinding/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
